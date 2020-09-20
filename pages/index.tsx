@@ -1,8 +1,11 @@
-import { NextPage } from "next"
+import { NextPage } from 'next'
+import React, { ReactNode } from 'react'
 
-type Props = {}
+type Props = {
+  children?: ReactNode
+}
 
-const IndexPage: NextPage<Props> = ({ children, ...props }) => {
+const IndexPage: NextPage<Props> = ({ children }) => {
   return (
     <div>
       <div>{children}</div>
@@ -10,4 +13,4 @@ const IndexPage: NextPage<Props> = ({ children, ...props }) => {
   )
 }
 
-export default IndexPage;
+export default IndexPage
