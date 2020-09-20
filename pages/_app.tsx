@@ -1,4 +1,5 @@
 import type { AppProps, NextWebVitalsMetric /*, AppContext */ } from 'next/app'
+import '../styles/globals.scss'
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
