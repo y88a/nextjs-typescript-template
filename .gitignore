@@ -35,3 +35,6 @@ yarn-error.log*
 
 # ESLint
 .eslintcache
+
+# Storybook
+storybook-static
