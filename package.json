@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "eslint . --cache --max-warnings 0 --ext ts,tsx ",
     "lint:fix": "eslint . --cache --fix --ext ts,tsx",
-    "stylelint": "stylelint ./**/*.{css,scss}",
-    "stylelint:fix": "stylelint --fix ./**/*.{css,scss}",
+    "stylelint": "stylelint './**/*.{css,scss}'",
+    "stylelint:fix": "stylelint --fix './**/*.{css,scss}'",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook"
   },
